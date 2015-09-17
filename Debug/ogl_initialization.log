@@ -1,0 +1,20 @@
+﻿Build started 6/28/2013 8:01:30 PM.
+     1>Project "C:\delete\ogl_initialization\ogl_initialization.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\ogl_initialization.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ogl_initialization.cpp
+         ogl_initialization.cpp
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(242): error C2065: 'ofstream' : undeclared identifier
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(242): error C2146: syntax error : missing ';' before identifier 'outSettings'
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(242): error C3861: 'outSettings': identifier not found
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(244): error C2065: 'outSettings' : undeclared identifier
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(244): error C2065: 'characterRotation' : undeclared identifier
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(250): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(250): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\delete\ogl_initialization\ogl_initialization.cpp(250): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>Done Building Project "C:\delete\ogl_initialization\ogl_initialization.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.13
